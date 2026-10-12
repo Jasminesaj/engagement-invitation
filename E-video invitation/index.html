@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>The Engagement of Kelvin & Allisa</title>
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      background-color: #eef2f3;
+      font-family: 'Georgia', serif;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      min-height: 100vh;
+    }
+    .invitation-container {
+      background: #ffffff;
+      max-width: 400px;
+      width: 100%;
+      border-radius: 20px;
+      box-shadow: 0 12px 30px rgba(0,0,0,0.15);
+      overflow: hidden;
+      text-align: center;
+    }
+    .video-wrapper {
+      position: relative;
+      width: 100%;
+      background: #000;
+    }
+    video {
+      width: 100%;
+      height: auto;
+      display: block;
+    }
+    .details-section {
+      padding: 24px 20px;
+      background: #faf8f5;
+    }
+    h1 {
+      color: #3b4d43;
+      font-size: 22px;
+      margin-bottom: 6px;
+    }
+    p {
+      color: #555;
+      font-size: 14px;
+      line-height: 1.6;
+      margin: 6px 0;
+    }
+    .date-time {
+      font-weight: bold;
+      color: #2c3e35;
+      margin: 12px 0;
+      font-size: 15px;
+    }
+    .btn-group {
+      margin-top: 20px;
+      display: flex;
+      gap: 10px;
+      justify-content: center;
+    }
+    .btn {
+      flex: 1;
+      padding: 10px 16px;
+      background-color: #627d6d;
+      color: white;
+      text-decoration: none;
+      border-radius: 25px;
+      font-size: 14px;
+      font-weight: bold;
+      transition: background 0.3s ease;
+      display: inline-block;
+      text-align: center;
+    }
+    .btn:hover {
+      background-color: #4f6658;
+    }
+    .btn-outline {
+      background-color: transparent;
+      border: 2px solid #627d6d;
+      color: #627d6d;
+    }
+    .btn-outline:hover {
+      background-color: #627d6d;
+      color: white;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="invitation-container">
+    <!-- Video Player -->
+    <div class="video-wrapper">
+      <video controls autoplay muted loop playsinline>
+        <source src="your-video-file.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+      </video>
+    </div>
+
+    <!-- Event Summary Details -->
+    <div class="details-section">
+      <h1>Kelvin & Allisa</h1>
+      <p>Together with their families, invite you to their engagement celebration</p>
+      
+      <div class="date-time">
+        Saturday, Dec 19, 2026 at 7:00 PM
+      </div>
+      
+      <p style="font-size: 13px; color: #777;">
+        📍 Sajat's Residence, Kampung Stabut
+      </p>
+
+      <!-- Action Buttons -->
+      <div class="btn-group">
+        <!-- RSVP via WhatsApp -->
+        <a href="https://wa.me/601114506132?text=Hi,%20I%20would%20love%20to%20attend%20the%20engagement%20celebration!" target="_blank" class="btn">RSVP</a>
+        
+        <!-- Save the Date -->
+        <a href="https://calendar.google.com/calendar/render?action=TEMPLATE&text=Kelvin+%26+Allisa%27s+Engagement&dates=20261219T190000/20261219T220000&details=Engagement+celebration+at+Sajat%27s+Residence,+Kampung+Stabut&location=Kampung+Stabut" target="_blank" class="btn btn-outline">Save Date</a>
+      </div>
+    </div>
+  </div>
+
+</body>
+</html>
